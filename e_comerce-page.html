@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comerce-product-page</title>
+    <link rel="stylesheet" href="E-comerce-product-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Kumbh+Sans">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./E-comerce-product-page-images/favicon-32x32.png">
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+                            <!-- this is the navigation starting -->
+    <header>
+        <nav>
+              <div class="logo-place">  
+                    <div class="menubar"> <h1><i class="fa-solid fa-bars"></i></h1> </div> 
+                    <img  src="./E-comerce-product-page-images/logo.svg"  id="nav-img"></img>
+            </div>
+
+            <ul id="navigations" >
+                
+                <p id="close-icon"><i class="fa-solid fa-xmark"></i></p>
+
+                <li><a href="#">collections</a></li>
+                <li><a href="#">men</a></li>
+                <li><a href="#">women</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="user">
+            <span id="cart"><img src="./E-comerce-product-page-images/icon-cart.svg" class="cart" > <span class="cart-available">0</span></span>
+            <img src="./E-comerce-product-page-images/image-avatar.png" alt="your image" id="user-icon">
+
+        </div>
+    </header>
+
+                            <!-- this is the navigation ending -->
+
+
+                            <!-- this is the product page starting -->
+
+
+  
+
+        <div class="image-sections">
+            <div class="images-container">
+
+                    <a href="./E-comerce-product-page-images/image-product-1.jpg" data-lightbox="lightbox" data-tittle="image-1">
+                         <img src="./E-comerce-product-page-images/image-product-1.jpg"  class="main-image">
+                    </a>
+                
+                
+                <div class="small-images">
+                <a href="./E-comerce-product-page-images/image-product-1.jpg" data-lightbox="lightbox" data-tittle="image-1">
+                    <img src="./E-comerce-product-page-images/image-product-1.jpg"  class="small-preview-pictures">
+                </a> 
+
+                <a href="./E-comerce-product-page-images/image-product-2.jpg" data-lightbox="lightbox" data-tittle="image-2">
+                    <img src="./E-comerce-product-page-images/image-product-2.jpg"  class="small-preview-pictures">
+                 
+                <a href="./E-comerce-product-page-images/image-product-3.jpg" data-lightbox="lightbox" data-tittle="image-3">
+                    <img src="./E-comerce-product-page-images/image-product-3.jpg"  class="small-preview-pictures">
+                </a> 
+               
+                <a href="./E-comerce-product-page-images/image-product-4.jpg" data-lightbox="lightbox" data-tittle="image-4">
+                    <img src="./E-comerce-product-page-images/image-product-4.jpg"  class="small-preview-pictures">
+                </a> 
+               
+                </div>
+
+            </div>    
+
+                                        <!-- this is the product details starting -->
+
+            
+            <aside class="product-details">
+
+                <h4 class="details-h4"> SNEAKER COMPANY</h4>
+                <h1 class="details-h1">Fall LIimited Edition Sneakers</h1>
+                <p class="details-p">These low profile sneakers are your perfect causal wear companion.
+                                     Featuring a durable rubber outer sole, they'll withstand everything the weather can offer
+                </p>
+            <div class="prices">
+                    <h3 class="details-h3">$120.00 <span class="details-span">50%</span></h3>
+                    <h5 class="details-h5-price">$250.00</h5>
+            </div>
+
+
+                <div class="orders">
+                    <div class="incrementation">
+                        <span id="orders-span" class="decrement"><img src="./E-comerce-product-page-images/icon-minus.svg">
+                        </span> <span class="orders-p">0</span >
+                        <span id="orders-span" class="increment"><img src="./E-comerce-product-page-images/icon-plus.svg"></span>
+                    </div>
+                    
+                        <button class="orders-button">  <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                    
+                    
+                </div>
+            </aside>
+
+        </div>
+
+        
+
+                            <!-- this is the product details ending -->
+                            <!-- this is the product page ending -->
+
+
+
+                            <!-- this is the product catalogs starting -->
+
+    <div class="catalogs">
+
+        <div class="catalogs-cart-text">
+            <h3>cart</h3>
+        </div>
+
+        <div class="catalogs-cart-items">
+        
+                <h3 class="empty">Your cart is empty.</h3>
+
+                <div class="div-to-append">
+
+                </div>
+            
+        </div>
+                           
+    </div>
+
+
+                            <!-- this is the product catalogs starting -->
+
+
+<script src="E-comerce-product-page.js"></script>
+<script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>
